@@ -3,9 +3,14 @@
 
 class Calculator
 {
-        public:
-            int Add (double, double);
-            int Sub (double, double);
+    public:
+        int Add (double, double);
+        int Sub (double, double);
+        int Mul (double, double);
+        int Div (double, double);
+        int Average (double, double);
+        int Square (double);
+
 };
 
 #endif//CALCULATOR_H
